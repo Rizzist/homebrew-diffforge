@@ -1,25 +1,25 @@
 class Diffforge < Formula
   desc "Standalone command-line tool for Diff Forge AI"
   homepage "https://diffforge.ai"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.1.0/diffforge-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "98fa81a2c1121de7745a4403d2f846652b4cc48269bcfab784f2eda4dc3aae8e"
+      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.2.0/diffforge-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "507bfa72c09e537d0babc2ce93a42a5ed80493f9809c1aad985602618c39a8a4"
     else
-      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.1.0/diffforge-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "bd850f6c2af12fe9682a9088a485791eedb62517ef6d1804da34b786ec949faf"
+      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.2.0/diffforge-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b1023ae08c872fcf7f8d95cbe6c4e38e50b1ad2ee7f0967fe19cad3e52577a91"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.1.0/diffforge-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "16ac0457686cb116d2eb14ad83bfc413b1efebfa661b4f4081a228ed67d95b0d"
+      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.2.0/diffforge-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "26234d578e2bcc277bc0234c3301a05362c68b78669cedf93fc58a56821e6fe1"
     else
-      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.1.0/diffforge-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d952885d4e818e35eee3f944ead1e7bc7a881527617f19d78c44f0e239869d04"
+      url "https://github.com/Rizzist/diffforge-cli/releases/download/v0.2.0/diffforge-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "41f4789cb1c3bdac04f3b4d16218614344d9b0b758cce3bc0c6789204a25f4ab"
     end
   end
 
